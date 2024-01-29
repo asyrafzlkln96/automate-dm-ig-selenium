@@ -10,11 +10,11 @@ from dotenv import load_dotenv
 
 # Load env variables from .env file
 load_dotenv()
-
+## This script automates the login and sends DM to list of users to Instagram using selenium
 # Script should login to instagram - DONE
 # Navigate to DM section - DONE
-# Send predefined messsage to list of users
-# Handle login challenges or captchas
+# Send predefined messsage to list of users - DONE
+# Handle login challenges or captchas- DONE
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -71,10 +71,8 @@ def bypass_save_info():
 		print(f'Error in bypass function: {str(e)}')
 
 
-def message():
+def send_message(chrome,recipient_name,message):
 	try:
-		message = "This is automated message .."
-		recipient_name = 'asyrafzulmusic'
 		msg_click = chrome.find_element_by_xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div[1]/div/div/div/div/div[2]/div[5]/div/div/div/span/div/a/div/div[1]/div/div[2]/div/span")
 		msg_click.click()
 		time.sleep(6)	
@@ -88,7 +86,7 @@ def message():
 		next_btn = chrome.find_element_by_xpath("/html/body/div[6]/div[1]/div/div[2]/div/div/div/div/div/div/div[1]/div/div[4]/div").click()
 		time.sleep(3)
 		mbox = chrome.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/div/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div[1]')
-		mbox.send_keys(message)
+		mbox.send_keys(message)		
 		send=chrome.find_element_by_xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/div/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[3]")
 		send.click()
 		logger.info(f'Recipient/Recipients: {recipient_name}')
@@ -96,13 +94,15 @@ def message():
 
 	except Exception as e:
 		print(f'Error in message function: {str(e)}')
-		logger.error(f'This is the message sent: {message}')
+		logger.error(f'Error in send message function: {message}')
+
 
 
 login()
 bypass_save_info()
-message()
+recipients = ['asyrafzulmusic','9gag']
+msg = "This is an automated message.."
 
-# if '__name__' == '__main__':
-# 	login()
-# 	# bypass_save_info()
+for recipient_username in recipients:
+	send_message(chrome,recipient_username,msg)
+	
