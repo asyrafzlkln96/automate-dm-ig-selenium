@@ -29,7 +29,7 @@ Automate Direct Messages(DMs) to Instagram using Selenium
 - Thus , if you have newer Selenium, or other version of Selenium, do run this to reinstall to 4.2.0 (Run pip install selenium==4.2.0 --force-reinstall)
 - The current script works if you have Google Chrome, assuming most PC already preinstalled with Chrome. Firefox will not work (need GeckoDriver.exe)
 - If you need to exclude the login code, you may disable the login code by setting LOGIN_CODE_FLAG to "False" in .env file
-- Current approach uses Absolute XPath, which even small changes may break the code. If Instagram updates the HTML structure, the code may not work.
+- Current approach uses Absolute XPath, which even small changes from Instagram may break the code. If Instagram updates the HTML structure, the code may not work.
  (A better implementation would be more readable XPath or other locator strategies
 E.g: //span[text()='Direct']
-//div[contains(@class, 'user-container')][1]//span[text()='Direct']
+//div[contains(@class, 'user-container')][1]//span[text()='Direct'] )
