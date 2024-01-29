@@ -1,5 +1,5 @@
 ## Flask app to automate DM to Instagram using Selenium
-This is Flask application to automate DMs to Instagram using Selenium
+This is Flask application to automate DMs to Instagram using Selenium (Bonus/Optional)
 
 # Input:
 - INSTAGRAM_USERNAME :string
