@@ -19,6 +19,6 @@ python main.py
 
 ## Current limitation:
 - The current implementation only runs on Selenium version 4.2.0 and below. Newer versions of Selenium will not work
-- Thus , if you have newer Selenium, preferred to downgrade to 4.2.0 and below.
-- Thus, if you need to exclude the login code, you may disable the login code by setting LOGIN_CODE_FLAG to "False"
+- Thus , if you have newer Selenium, preferred to downgrade to 4.2.0 and below. (Run pip install selenium==4.2.0 --force-reinstall)
+- If you need to exclude the login code, you may disable the login code by setting LOGIN_CODE_FLAG to "False"
 
