@@ -1,0 +1,226 @@
+2024-01-29 14:23:55,398 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 14:29:30,841 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 14:33:38,478 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 14:35:56,742 - __main__ - ERROR - Error logging in: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input"}
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF7024FBF4E]
+	(No symbol) [0x00007FF7024FC0CC]
+	(No symbol) [0x00007FF70253E477]
+	(No symbol) [0x00007FF70251F0EF]
+	(No symbol) [0x00007FF70253BDE3]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 14:37:08,349 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:14:39,722 - __main__ - ERROR - Error logging in: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF70249288C]
+	(No symbol) [0x00007FF702525DD7]
+	(No symbol) [0x00007FF70253B40F]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 15:15:23,106 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:15:35,672 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 15:17:33,613 - __main__ - ERROR - Error logging in: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input"}
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF7024FBF4E]
+	(No symbol) [0x00007FF7024FC0CC]
+	(No symbol) [0x00007FF70253E477]
+	(No symbol) [0x00007FF70251F0EF]
+	(No symbol) [0x00007FF70253BDE3]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 15:18:20,179 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:18:32,327 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 15:20:13,172 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:20:24,709 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 15:25:12,799 - __main__ - ERROR - Error logging in: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF70249288C]
+	(No symbol) [0x00007FF702525DD7]
+	(No symbol) [0x00007FF70253B40F]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 15:25:39,931 - __main__ - ERROR - Error logging in: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input"}
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF7024FBF4E]
+	(No symbol) [0x00007FF7024FC0CC]
+	(No symbol) [0x00007FF70253E477]
+	(No symbol) [0x00007FF70251F0EF]
+	(No symbol) [0x00007FF70253BDE3]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 15:26:15,033 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:26:28,435 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 15:34:17,054 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:34:29,112 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 15:42:41,243 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:42:54,042 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 15:47:33,801 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 15:47:45,723 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 16:16:18,349 - __main__ - ERROR - Error logging in: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input"}
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF7024FBF4E]
+	(No symbol) [0x00007FF7024FC0CC]
+	(No symbol) [0x00007FF70253E477]
+	(No symbol) [0x00007FF70251F0EF]
+	(No symbol) [0x00007FF70253BDE3]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 16:16:18,369 - __main__ - ERROR - This is the message sent: This is automated message ..
+2024-01-29 16:16:51,161 - __main__ - ERROR - Error logging in: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input"}
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF7024FBF4E]
+	(No symbol) [0x00007FF7024FC0CC]
+	(No symbol) [0x00007FF70253E477]
+	(No symbol) [0x00007FF70251F0EF]
+	(No symbol) [0x00007FF70253BDE3]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 16:16:51,182 - __main__ - ERROR - This is the message sent: This is automated message ..
+2024-01-29 16:18:00,938 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 16:18:13,726 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 16:18:24,918 - __main__ - ERROR - This is the message sent: This is automated message ..
+2024-01-29 16:21:14,261 - __main__ - ERROR - Error logging in: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input"}
+  (Session info: chrome=121.0.6167.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7029E5E42+3538674]
+	(No symbol) [0x00007FF702604C02]
+	(No symbol) [0x00007FF7024B5AEB]
+	(No symbol) [0x00007FF7024FBF4E]
+	(No symbol) [0x00007FF7024FC0CC]
+	(No symbol) [0x00007FF70253E477]
+	(No symbol) [0x00007FF70251F0EF]
+	(No symbol) [0x00007FF70253BDE3]
+	(No symbol) [0x00007FF70251EE53]
+	(No symbol) [0x00007FF7024EF514]
+	(No symbol) [0x00007FF7024F0631]
+	GetHandleVerifier [0x00007FF702A16CAD+3738973]
+	GetHandleVerifier [0x00007FF702A6C506+4089270]
+	GetHandleVerifier [0x00007FF702A64823+4057299]
+	GetHandleVerifier [0x00007FF702735C49+720121]
+	(No symbol) [0x00007FF70261126F]
+	(No symbol) [0x00007FF70260C304]
+	(No symbol) [0x00007FF70260C432]
+	(No symbol) [0x00007FF7025FBD04]
+	BaseThreadInitThunk [0x00007FFD34E77C24+20]
+	RtlUserThreadStart [0x00007FFD36C6D4D1+33]
+! Please check credential in .env file
+2024-01-29 16:21:14,408 - __main__ - ERROR - This is the message sent: This is automated message ..
+2024-01-29 16:22:27,370 - __main__ - INFO - Successfully logged into Instagram Account!
+2024-01-29 16:22:39,283 - __main__ - INFO - Successfully bypassed all info and authentications!
+2024-01-29 16:22:58,822 - __main__ - INFO - Recipient/Recipients: asyrafzulmusic
+2024-01-29 16:22:58,822 - __main__ - INFO - This is the message sent: This is automated message ..
