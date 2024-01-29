@@ -21,6 +21,8 @@ Automate Direct Messages(DMs) to Instagram using Selenium
 - Run pip install -r requirements.txt
 - Set .env file correctly with your credentials and configurations
 - Type python main.py in terminal
+  ![image](https://github.com/asyrafzlkln96/automate-dm-ig-selenium/assets/53460015/f4459049-e60d-4a69-99a0-0f0f046cea20)
+
 
 ## Current limitation:
 - The current implementation only runs on Selenium version 4.2.0 and below. Newer versions of Selenium will not work
