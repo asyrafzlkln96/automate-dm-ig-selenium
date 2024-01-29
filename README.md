@@ -9,6 +9,10 @@ Automate Direct Messages(DMs) to Instagram using Selenium
 - You have to have Instagram account, preferred to have two accounts to test this script
 - .env file that contains this key: "INSTAGRAM_USERNAME": your_account_username, "INSTAGRAM_PASSWORD": your_password, "INSTAGRAM_CODE": login_code_if_have
 
+## Functionality:
+- This script is developed to automate Messages to Instagram using Selenium.
+- Logging functions to log info and error messages from the automation script.
+
 ## To run the script:
 python main.py
 
