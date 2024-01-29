@@ -11,10 +11,6 @@ from dotenv import load_dotenv
 # Load env variables from .env file
 load_dotenv()
 ## This script automates the login and sends DM to list of users to Instagram using selenium
-# Script should login to instagram - DONE
-# Navigate to DM section - DONE
-# Send predefined messsage to list of users - DONE
-# Handle login challenges or captchas- DONE
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -56,10 +52,11 @@ def login():
 def bypass_save_info():
 	try:
 		# Bypass authentication
-		login_code = chrome.find_element_by_xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div[1]/div/label/input")
-		login_code.send_keys(os.getenv("INSTAGRAM_CODE"))
-		login_code.submit()
-		time.sleep(4)
+		if os.getenv("LOGIN_CODE_FLAG") == 'True':
+			login_code = chrome.find_element_by_xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div[1]/div/label/input")
+			login_code.send_keys(os.getenv("INSTAGRAM_CODE"))
+			login_code.submit()
+			time.sleep(4)
 		# Bypass save info
 		not_now = chrome.find_element_by_xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/main/div/div/div/div/div").click()
 		time.sleep(3)
