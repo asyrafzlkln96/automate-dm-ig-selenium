@@ -12,3 +12,9 @@ Automate Direct Messages(DMs) to Instagram using Selenium
 ## To run the script:
 python main.py
 
+## Current limitation:
+- The current implementation only runs on Selenium version 4.2.0 and below. Newer versions of Selenium will not work
+- Thus , if you have newer Selenium, preferred to downgrade to 4.2.0 and below.
+- This code needs to include Login Code that changes every 30 seconds due to Instagram Security measures.
+- Thus, if you need to exclude the login code, you may disable the login code, but it may affect your Instagram security and ease others to hack your account.
+
