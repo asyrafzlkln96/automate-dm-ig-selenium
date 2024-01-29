@@ -7,7 +7,7 @@ Automate Direct Messages(DMs) to Instagram using Selenium
 
 ## Prerequisites:
 - You have to have Instagram account, preferred to have two accounts to test this script
-- You have to download ChromeDriver.exe from(https://chromedriver.chromium.org/downloads)
+- You have to download ChromeDriver.exe from(https://chromedriver.chromium.org/downloads), then put into the same directory as the main.py
 - .env file that contains this key: "INSTAGRAM_USERNAME": your_account_username, "INSTAGRAM_PASSWORD": your_password, "INSTAGRAM_CODE": login_code_if_have, "LOGIN_CODE_FLAG": "True"
 - LOGIN_CODE_FLAG is "True" by default, if don't have login code, then set to "False"
 
