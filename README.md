@@ -7,7 +7,8 @@ Automate Direct Messages(DMs) to Instagram using Selenium
 
 ## Prerequisites:
 - You have to have Instagram account, preferred to have two accounts to test this script
-- .env file that contains this key: "INSTAGRAM_USERNAME": your_account_username, "INSTAGRAM_PASSWORD": your_password, "INSTAGRAM_CODE": login_code_if_have
+- .env file that contains this key: "INSTAGRAM_USERNAME": your_account_username, "INSTAGRAM_PASSWORD": your_password, "INSTAGRAM_CODE": login_code_if_have, "LOGIN_CODE_FLAG": "True"
+- LOGIN_CODE_FLAG is "True" by default, if don't have login code, then set to "False"
 
 ## Functionality:
 - This script is developed to automate Messages to Instagram using Selenium.
@@ -19,6 +20,5 @@ python main.py
 ## Current limitation:
 - The current implementation only runs on Selenium version 4.2.0 and below. Newer versions of Selenium will not work
 - Thus , if you have newer Selenium, preferred to downgrade to 4.2.0 and below.
-- This code needs to include Login Code that changes every 30 seconds due to Instagram Security measures.
-- Thus, if you need to exclude the login code, you may disable the login code, but it may affect your Instagram security and ease others to hack your account.
+- Thus, if you need to exclude the login code, you may disable the login code by setting LOGIN_CODE_FLAG to "False"
 
