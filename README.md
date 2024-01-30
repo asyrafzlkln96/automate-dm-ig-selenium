@@ -25,7 +25,7 @@ Automate Direct Messages(DMs) to Instagram using Selenium
 
 
 ## Current limitation:
-- The current implementation only runs on Selenium version 4.2.0. The script does not work on version 4.17.2(tested), and not tested with other versions of Selenium that are mentioned
+- The current implementation runs on Selenium version 4.2.0 (tested). The script does not work on version 4.17.2(tested), and not tested with other versions of Selenium that are mentioned
 - Thus , if you have newer Selenium, or other version of Selenium, do run this to reinstall to 4.2.0 (Run pip install selenium==4.2.0 --force-reinstall)
 - The current script works if you have Google Chrome, assuming most PC already preinstalled with Chrome. Firefox will not work (need GeckoDriver.exe)
 - If you need to exclude the login code, you may disable the login code by setting LOGIN_CODE_FLAG to "False" in .env file
