@@ -88,6 +88,7 @@ def send_message(chrome,recipient_name,message):
 		send.click()
 		logger.info(f'Recipient/Recipients: {recipient_name}')
 		logger.info(f'This is the message sent: {message}')
+		logger.info('Successfully sent message!')
 
 	except Exception as e:
 		print(f'Error in message function: {str(e)}')
