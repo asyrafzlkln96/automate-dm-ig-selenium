@@ -31,6 +31,7 @@ chrome.get('https://instagram.com')
 
 def login():
 	try:
+		time.sleep(2)
 		username = chrome.find_element(By.XPATH, "//input[@aria-label='Phone number, username, or email']")
 		username.send_keys(os.getenv("INSTAGRAM_USERNAME"))
 		time.sleep(4)
@@ -52,6 +53,7 @@ def bypass_save_info():
 		# Bypass authentication
 		if login_code_flag == 'True' or login_code_flag == True:
 			login_code = chrome.find_element(By.XPATH, "/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div[1]/div/label/input")
+			# login_code = chrome.find_element(By.XPATH, "input[@aria-label='Security Code']")
 			login_code.send_keys(os.getenv("INSTAGRAM_CODE"))
 			login_code.submit()
 			time.sleep(4)
