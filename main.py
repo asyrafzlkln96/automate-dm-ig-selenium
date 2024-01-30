@@ -31,10 +31,11 @@ chrome.get('https://instagram.com')
 
 def login():
 	try:
-		username=chrome.find_element(By.XPATH,'/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input')
+		username = chrome.find_element(By.XPATH, "//input[@aria-label='Phone number, username, or email']")
 		username.send_keys(os.getenv("INSTAGRAM_USERNAME"))
 		time.sleep(4)
-		pwd=chrome.find_element(By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input')
+		# pwd=chrome.find_element(By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input')
+		pwd = chrome.find_element(By.XPATH, "//input[@aria-label='Password']")
 		pwd.send_keys(os.getenv("INSTAGRAM_PASSWORD"))
 		pwd.submit()
 		time.sleep(7)
