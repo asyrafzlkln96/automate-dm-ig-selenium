@@ -38,7 +38,7 @@ args = parser.parse_args()
 ig_username = args.ig_username
 ig_password = args.ig_password
 code_flag = args.code_flag
-ig_code = args.ig_code
+ig_code = int(args.ig_code)
 
 chrome = webdriver.Chrome()
 chrome.get('https://instagram.com')
