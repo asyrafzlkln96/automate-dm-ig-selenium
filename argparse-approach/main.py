@@ -57,7 +57,7 @@ def login(ig_username, ig_password):
 		logger.info('Successfully logged into Instagram Account!')
 	except Exception as e:
 		print('error:',str(e))
-		logger.error(f'Error logging in: {str(e)}! Please check credential in .env file')
+		logger.error(f'Error logging in: {str(e)}! Please check credentials!')
 
 
 
@@ -108,7 +108,7 @@ def send_message(chrome,recipient_name,message):
 
 	except Exception as e:
 		print(f'Error in message function: {str(e)}')
-		logger.error(f'Error in send message function: {message}')
+		logger.error(f'Error in send message function: {e}')
 
 
 
