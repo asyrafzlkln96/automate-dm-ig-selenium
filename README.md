@@ -33,3 +33,5 @@ Automate Direct Messages(DMs) to Instagram using Selenium
  (A better implementation would be more readable XPath or other locator strategies
 E.g: //span[text()='Direct']
 //div[contains(@class, 'user-container')][1]//span[text()='Direct'] )
+- If you run this script many times, there's possibility Instagram will ask you to retry again in few minutes for the code(security measure), because you have logged in many times.
+- So in real life application, we can use cron job or scheduler to run this script at a fix time only.
